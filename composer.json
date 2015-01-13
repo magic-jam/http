@@ -1,6 +1,7 @@
 {
     "name": "magic-jam/http",
     "description": "HTTP abstractions",
+    "license": "MIT",
     "authors": [
         {
             "name": "Jason Frame",
