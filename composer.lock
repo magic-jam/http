@@ -1,0 +1,95 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "ff253a36a57eda2861c1279f87790db3",
+    "packages": [
+        {
+            "name": "magic-jam/datetime",
+            "version": "v0.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magic-jam/datetime.git",
+                "reference": "47b667f069aa6d3921fb8bdb28548bcdf0794ae7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magic-jam/datetime/zipball/47b667f069aa6d3921fb8bdb28548bcdf0794ae7",
+                "reference": "47b667f069aa6d3921fb8bdb28548bcdf0794ae7",
+                "shasum": ""
+            },
+            "require": {
+                "magic-jam/mj-base": "1.0.*",
+                "php": ">= 5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "mj\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jason Frame",
+                    "email": "jason@onehackoranother.com"
+                }
+            ],
+            "description": "Immutable datetime library",
+            "homepage": "http://github.com/magic-jam/datetime",
+            "time": "2015-01-13 11:36:56"
+        },
+        {
+            "name": "magic-jam/mj-base",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magic-jam/mj-base.git",
+                "reference": "391e62a841a4ec990d60c54f27303673092f39ae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magic-jam/mj-base/zipball/391e62a841a4ec990d60c54f27303673092f39ae",
+                "reference": "391e62a841a4ec990d60c54f27303673092f39ae",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">= 5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jason Frame",
+                    "email": "jason@onehackoranother.com"
+                }
+            ],
+            "description": "Magic Jam base library",
+            "homepage": "http://github.com/magic-jam/mj-base",
+            "time": "2015-01-13 11:18:54"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">= 5.3.0"
+    },
+    "platform-dev": []
+}
